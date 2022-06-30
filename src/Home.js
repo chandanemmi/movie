@@ -6,7 +6,7 @@ export default function Home() {
   const { movie, isLoading } = useGlobalContext();
   console.log("");
   return (
-    <div>
+    <div className="container">
       <Search />
       <Movie />
     </div>
